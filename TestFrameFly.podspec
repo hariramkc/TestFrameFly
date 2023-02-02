@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|  
     s.name              = 'TestFrameFly' # Name for your pod
-    s.version           = '0.0.2'
+    s.version           = '0.0.3'
     s.summary           = 'This repo to explore the cocopod and how to upload pod in public accessc'
     s.homepage          = 'https://github.com/'
 
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 
     s.platform          = :ios, "12.1"
     # change the source location
-    s.source            = { : https => 'https://github.com/hariramkc/TestFrameFly.git' } 
+    s.source            = { :git => 'https://github.com/hariramkc/TestFrameFly.git', :tag => s.version.to_s } 
     s.swift_version = '4.0'
     s.source_files  = "TestFrameFly/**/*.*{swift, h, m}","TestFrameFly/**/*.xib"
 
