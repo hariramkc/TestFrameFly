@@ -1,0 +1,20 @@
+PODS:
+  - Alamofire (5.6.4)
+  - libPhoneNumber-iOS (0.9.15)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.3)
+  - libPhoneNumber-iOS (~> 0.8)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - libPhoneNumber-iOS
+
+SPEC CHECKSUMS:
+  Alamofire: 4e95d97098eacb88856099c4fc79b526a299e48c
+  libPhoneNumber-iOS: 0a32a9525cf8744fe02c5206eb30d571e38f7d75
+
+PODFILE CHECKSUM: 5dbb39edbe93d9bce5e22ad7f92290a9a2f0563a
+
+COCOAPODS: 1.11.3
