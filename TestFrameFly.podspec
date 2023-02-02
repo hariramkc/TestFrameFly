@@ -13,20 +13,21 @@ Pod::Spec.new do |s|
     s.summary           = 'This repo to explore the cocopod and how to upload pod in public accessc'
     s.homepage          = 'https://github.com/'
 
-    s.author            = { 'Sample' => 'ramindhu29@gmail.com' }
+    s.author            = { 'Hariram' => 'ramindhu29@gmail.com' }
     s.license = { :type => "MIT", :text => "MIT License" }
 
-    s.platform          = :ios
+    s.platform          = :ios, "12.1"
     # change the source location
-    s.source            = { :git => 'https://github.com/hariramkc/TestFrameFly' } 
-
+    s.source            = { :git => 'https://github.com/hariramkc/TestFrameFly.git' } 
+    s.swift_version = '4.0'
     s.source_files  = "TestFrameFly/**/*.*{swift, h, m}","TestFrameFly/**/*.xib"
-    s.resources = "TestFrameFly/*.xcassets"
+
+   # s.resources = "TestFrameFly/*.xcassets"
     #spec.exclude_files = [TestFile]
     #s.requires_arc = true
     s.dependency 'libPhoneNumber-iOS'
     s.dependency 'Alamofire'
-
+ 
    # s.ios.deployment_target = '10.0'
    # s.ios.vendored_frameworks = 'XCFrameworkTest.xcframework' # Your XCFramework
     
