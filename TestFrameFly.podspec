@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 
     s.platform          = :ios, "12.1"
     # change the source location
-    s.source            = { :git => 'https://github.com/hariramkc/TestFrameFly.git' } 
+    s.source            = { : https => 'https://github.com/hariramkc/TestFrameFly.git' } 
     s.swift_version = '4.0'
     s.source_files  = "TestFrameFly/**/*.*{swift, h, m}","TestFrameFly/**/*.xib"
 
