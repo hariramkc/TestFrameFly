@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
     #s.requires_arc = true
     s.dependency 'libPhoneNumber-iOS'
     s.dependency 'Alamofire'
- 
+    s.ios.vendored_frameworks = 'FlyCommon.xcframework' 
    # s.ios.deployment_target = '10.0'
    # s.ios.vendored_frameworks = 'XCFrameworkTest.xcframework' # Your XCFramework
     
