@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 
     s.platform          = :ios, "12.1"
     # change the source location
-    s.source            = { :https => 'https://github.com/MirrorFly/Mirrorfly-ios-framework/archive/refs/tags/0.0.1.zip' } 
+    s.source            = { :https => 'https://github.com/hariramkc/TestFrameFly' } 
     s.swift_version = '4.0'
     s.source_files  = "TestFrameFly/**/*.*{swift, h, m}","TestFrameFly/**/*.xib"
 
